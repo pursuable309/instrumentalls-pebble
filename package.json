@@ -1,0 +1,47 @@
+{
+  "name": "instrumentalls-remote",
+  "author": "tmehdi",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Instrumentalls",
+    "uuid": "588fd96f-f255-4d61-8ca5-b84a5d0ddb6e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["aplite", "basalt", "chalk", "diorite", "emery", "flint", "gabbro"],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "STATUS",
+      "TITLE",
+      "CHANNEL",
+      "GENRE",
+      "GENRE_COLOR",
+      "IS_TOP",
+      "IS_UNTAG",
+      "POSITION",
+      "DURATION",
+      "QUEUE_SIZE",
+      "REACHABLE",
+      "LOOP",
+      "GENRES",
+      "CMD",
+      "ARG",
+      "REFRESH"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        }
+      ]
+    },
+    "capabilities": []
+  }
+}
